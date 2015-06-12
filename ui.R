@@ -35,7 +35,8 @@ shinyUI(fluidPage(
     mainPanel(
       plotOutput("plot", width = "50%"),
       plotOutput("plot2", width = "50%"),
-      dataTableOutput("table")
+      dataTableOutput("table"),
+      HTML("Made by <a href='http://emilkirkegaard.dk'>Emil O. W. Kirkegaard</a> using <a href='http://shiny.rstudio.com/'/>Shiny</a> for <a href='http://en.wikipedia.org/wiki/R_%28programming_language%29'>R</a>. Source code available <a href='https://github.com/Deleetdk/regression_towards_the_mean'>on Github</a>.")
     )
   )
 ))
